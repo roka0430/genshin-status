@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "NotoSansJP";
+  src: url("../fonts/NotoSansJP.ttf") format("trueType");
+}
+
+:root {
+  --color-bg: #18191a;
+  --color-bg-secondary: #212529;
+
+  --color-text: #e4e6eb;
+  --color-text-secondary: #b0b3b8;
+  --color-text-muted: #8a8d91;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: "NotoSansJP", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 30px;
+  background: var(--color-bg-secondary);
+}
+
+h1 {
+  font-size: 1.2rem;
+  line-height: 1;
+  transform: translateY(-1px);
+}
+
+main {
+  flex: 1;
+  padding: 30px;
+}
+
+footer {
+  flex: 0 0 auto;
+  margin: 8px 0;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  text-align: center;
+}
