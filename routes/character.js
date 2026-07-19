@@ -33,9 +33,7 @@ router.get("/:id", (req, res) => {
   const character = characters[req.params.id];
 
   if (!character) {
-    return res.status(404).json({
-      error: "Not found",
-    });
+    return res.status(404).json({ error: "Not found" });
   }
 
   res.json({
@@ -49,15 +47,11 @@ router.post("/", (req, res) => {
   const { id, ...character } = req.body;
 
   if (!id) {
-    return res.status(400).json({
-      error: "Missing id",
-    });
+    return res.status(400).json({ error: "Missing id" });
   }
 
   if (characters[id]) {
-    return res.status(409).json({
-      error: "Character already exists",
-    });
+    return res.status(409).json({ error: "Character already exists" });
   }
 
   characters[id] = character;
@@ -70,15 +64,27 @@ router.put("/:id", (req, res) => {
   const id = req.params.id;
 
   if (!characters[id]) {
-    return res.status(404).json({
-      error: "Not found",
-    });
+    return res.status(404).json({ error: "Not found" });
   }
 
   characters[id] = req.body;
   saveCharacters(characters);
 
   res.json({ id, ...character });
+});
+
+// キャラクターを削除する
+router.delete("/:id", (req, res) => {
+  const id = req.params.id;
+
+  if (!characters[id]) {
+    return res.status(404).json({ error: "Not found" });
+  }
+
+  delete characters[id];
+  saveCharacters(characters);
+
+  res.status(204).send();
 });
 
 export default router;
