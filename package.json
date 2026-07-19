@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/roka0430/genshin-status#readme",
   "dependencies": {
+    "ejs": "^6.0.1",
     "express": "^5.2.1",
     "js-yaml": "^5.2.1"
   },
