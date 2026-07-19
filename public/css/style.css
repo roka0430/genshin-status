@@ -6,6 +6,7 @@
 :root {
   --color-bg: #18191a;
   --color-bg-secondary: #212529;
+  --color-bg-hover: #2c3035;
 
   --color-text: #e4e6eb;
   --color-text-secondary: #b0b3b8;
@@ -18,6 +19,13 @@
   box-sizing: border-box;
   user-select: none;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*  */
 
 html,
 body {
@@ -36,16 +44,44 @@ body {
 
 header {
   display: flex;
-  align-items: center;
-  height: 50px;
-  padding: 0 30px;
+  height: 60px;
   background: var(--color-bg-secondary);
 }
 
 h1 {
-  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 0 0 15px;
+  padding: 0 15px;
+  font-size: 1rem;
   line-height: 1;
-  transform: translateY(-1px);
+}
+
+header nav {
+  height: 100%;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  height: 100%;
+}
+
+header nav li {
+  height: 100%;
+}
+
+header nav a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 15px;
+  transition: background 0.15s ease;
+}
+
+header nav a:hover {
+  background: var(--color-bg-hover);
 }
 
 main {
