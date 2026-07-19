@@ -1,8 +1,6 @@
-# spellchecker:disable
-
 aino:
   ascension:
-    stat: 元素熟知
+    stat: em
     value: 96.0
   name:
     en: Aino
@@ -15,7 +13,7 @@ aino:
   weapon_type: claymore
 albedo:
   ascension:
-    stat: 岩元素ダメージ
+    stat: geo_dmg
     value: 28.8
   name:
     en: Albedo
@@ -28,7 +26,7 @@ albedo:
   weapon_type: sword
 alhaitham:
   ascension:
-    stat: 草元素ダメージ
+    stat: dendro_dmg
     value: 28.8
   name:
     en: Alhaitham
@@ -41,7 +39,7 @@ alhaitham:
   weapon_type: sword
 aloy:
   ascension:
-    stat: 氷元素ダメージ
+    stat: cryo_dmg
     value: 28.8
   name:
     en: Aloy
@@ -54,7 +52,7 @@ aloy:
   weapon_type: bow
 amber:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 24.0
   name:
     en: Amber
@@ -67,7 +65,7 @@ amber:
   weapon_type: bow
 arataki_itto:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Arataki Itto
@@ -80,7 +78,7 @@ arataki_itto:
   weapon_type: claymore
 arlecchino:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Arlecchino
@@ -93,7 +91,7 @@ arlecchino:
   weapon_type: polearm
 baizhu:
   ascension:
-    stat: HP
+    stat: hp_pct
     value: 28.8
   name:
     en: Baizhu
@@ -106,7 +104,7 @@ baizhu:
   weapon_type: catalyst
 barbara:
   ascension:
-    stat: HP
+    stat: hp_pct
     value: 24.0
   name:
     en: Barbara
@@ -119,7 +117,7 @@ barbara:
   weapon_type: catalyst
 beidou:
   ascension:
-    stat: 雷元素ダメージ
+    stat: electro_dmg
     value: 24.0
   name:
     en: Beidou
@@ -132,7 +130,7 @@ beidou:
   weapon_type: claymore
 bennett:
   ascension:
-    stat: 元素チャージ効率
+    stat: er
     value: 26.7
   name:
     en: Bennett
@@ -145,7 +143,7 @@ bennett:
   weapon_type: sword
 candace:
   ascension:
-    stat: HP
+    stat: hp_pct
     value: 24.0
   name:
     en: Candace
@@ -158,7 +156,7 @@ candace:
   weapon_type: polearm
 charlotte:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 24.0
   name:
     en: Charlotte
@@ -171,7 +169,7 @@ charlotte:
   weapon_type: catalyst
 chasca:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Chasca
@@ -184,7 +182,7 @@ chasca:
   weapon_type: bow
 chevreuse:
   ascension:
-    stat: HP
+    stat: hp_pct
     value: 24.0
   name:
     en: Chevreuse
@@ -197,7 +195,7 @@ chevreuse:
   weapon_type: polearm
 chiori:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Chiori
@@ -210,7 +208,7 @@ chiori:
   weapon_type: sword
 chongyun:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 24.0
   name:
     en: Chongyun
@@ -223,7 +221,7 @@ chongyun:
   weapon_type: claymore
 citlali:
   ascension:
-    stat: 元素熟知
+    stat: em
     value: 115.0
   name:
     en: Citlali
@@ -236,7 +234,7 @@ citlali:
   weapon_type: catalyst
 clorinde:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Clorinde
@@ -249,7 +247,7 @@ clorinde:
   weapon_type: sword
 collei:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 24.0
   name:
     en: Collei
@@ -262,7 +260,7 @@ collei:
   weapon_type: bow
 columbina:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Columbina
@@ -275,7 +273,7 @@ columbina:
   weapon_type: catalyst
 cyno:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Cyno
@@ -288,7 +286,7 @@ cyno:
   weapon_type: polearm
 dahlia:
   ascension:
-    stat: HP
+    stat: hp_pct
     value: 24.0
   name:
     en: Dahlia
@@ -301,7 +299,7 @@ dahlia:
   weapon_type: sword
 dehya:
   ascension:
-    stat: HP
+    stat: hp_pct
     value: 28.8
   name:
     en: Dehya
@@ -314,7 +312,7 @@ dehya:
   weapon_type: claymore
 diluc:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Diluc
@@ -327,7 +325,7 @@ diluc:
   weapon_type: claymore
 diona:
   ascension:
-    stat: 氷元素ダメージ
+    stat: cryo_dmg
     value: 24.0
   name:
     en: Diona
@@ -340,7 +338,7 @@ diona:
   weapon_type: bow
 dori:
   ascension:
-    stat: HP
+    stat: hp_pct
     value: 24.0
   name:
     en: Dori
@@ -353,7 +351,7 @@ dori:
   weapon_type: claymore
 durin:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Durin
@@ -366,7 +364,7 @@ durin:
   weapon_type: sword
 emilie:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Emilie
@@ -379,7 +377,7 @@ emilie:
   weapon_type: polearm
 escofier:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Escofier
@@ -392,7 +390,7 @@ escofier:
   weapon_type: polearm
 eula:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Eula
@@ -405,7 +403,7 @@ eula:
   weapon_type: claymore
 faruzan:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 24.0
   name:
     en: Faruzan
@@ -418,7 +416,7 @@ faruzan:
   weapon_type: bow
 fischl:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 24.0
   name:
     en: Fischl
@@ -431,7 +429,7 @@ fischl:
   weapon_type: bow
 flins:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Flins
@@ -444,7 +442,7 @@ flins:
   weapon_type: polearm
 freminet:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 24.0
   name:
     en: Freminet
@@ -457,7 +455,7 @@ freminet:
   weapon_type: claymore
 furina:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Furina
@@ -470,7 +468,7 @@ furina:
   weapon_type: sword
 gaming:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 24.0
   name:
     en: Gaming
@@ -483,7 +481,7 @@ gaming:
   weapon_type: claymore
 ganyu:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Ganyu
@@ -496,7 +494,7 @@ ganyu:
   weapon_type: bow
 gorou:
   ascension:
-    stat: 岩元素ダメージ
+    stat: geo_dmg
     value: 24.0
   name:
     en: Gorou
@@ -509,7 +507,7 @@ gorou:
   weapon_type: bow
 hu_tao:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Hu Tao
@@ -522,7 +520,7 @@ hu_tao:
   weapon_type: polearm
 iansan:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 24.0
   name:
     en: Iansan
@@ -535,7 +533,7 @@ iansan:
   weapon_type: polearm
 ifa:
   ascension:
-    stat: 元素熟知
+    stat: em
     value: 96.0
   name:
     en: Ifa
@@ -548,7 +546,7 @@ ifa:
   weapon_type: catalyst
 illuga:
   ascension:
-    stat: 元素熟知
+    stat: em
     value: 96.0
   name:
     en: Illuga
@@ -561,7 +559,7 @@ illuga:
   weapon_type: polearm
 ineffa:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Ineffa
@@ -574,7 +572,7 @@ ineffa:
   weapon_type: polearm
 jahoda:
   ascension:
-    stat: 与える治療効果
+    stat: heal
     value: 18.5
   name:
     en: Jahoda
@@ -587,7 +585,7 @@ jahoda:
   weapon_type: bow
 jean:
   ascension:
-    stat: 与える治療効果
+    stat: heal
     value: 22.2
   name:
     en: Jean
@@ -600,7 +598,7 @@ jean:
   weapon_type: sword
 kachina:
   ascension:
-    stat: 岩元素ダメージ
+    stat: geo_dmg
     value: 24.0
   name:
     en: Kachina
@@ -613,7 +611,7 @@ kachina:
   weapon_type: polearm
 kaedehara_kazuha:
   ascension:
-    stat: 元素熟知
+    stat: em
     value: 115.0
   name:
     en: Kaedehara Kazuha
@@ -626,7 +624,7 @@ kaedehara_kazuha:
   weapon_type: sword
 kaeya:
   ascension:
-    stat: 元素チャージ効率
+    stat: er
     value: 26.7
   name:
     en: Kaeya
@@ -639,7 +637,7 @@ kaeya:
   weapon_type: sword
 kamisato_ayaka:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Kamisato Ayaka
@@ -652,7 +650,7 @@ kamisato_ayaka:
   weapon_type: sword
 kamisato_ayato:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Kamisato Ayato
@@ -665,7 +663,7 @@ kamisato_ayato:
   weapon_type: sword
 kaveh:
   ascension:
-    stat: 元素熟知
+    stat: em
     value: 96.0
   name:
     en: Kaveh
@@ -678,7 +676,7 @@ kaveh:
   weapon_type: claymore
 keqing:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Keqing
@@ -691,7 +689,7 @@ keqing:
   weapon_type: sword
 kinich:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Kinich
@@ -704,7 +702,7 @@ kinich:
   weapon_type: claymore
 kirara:
   ascension:
-    stat: HP
+    stat: hp_pct
     value: 24.0
   name:
     en: Kirara
@@ -717,7 +715,7 @@ kirara:
   weapon_type: sword
 klee:
   ascension:
-    stat: 炎元素ダメージ
+    stat: pyro_dmg
     value: 28.8
   name:
     en: Klee
@@ -730,7 +728,7 @@ klee:
   weapon_type: catalyst
 kujou_sara:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 24.0
   name:
     en: Kujou Sara
@@ -743,7 +741,7 @@ kujou_sara:
   weapon_type: bow
 kuki_shinobu:
   ascension:
-    stat: HP
+    stat: hp_pct
     value: 24.0
   name:
     en: Kuki Shinobu
@@ -756,7 +754,7 @@ kuki_shinobu:
   weapon_type: sword
 lan_yan:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 24.0
   name:
     en: Lan Yan
@@ -769,7 +767,7 @@ lan_yan:
   weapon_type: catalyst
 lauma:
   ascension:
-    stat: 元素熟知
+    stat: em
     value: 115.0
   name:
     en: Lauma
@@ -782,7 +780,7 @@ lauma:
   weapon_type: catalyst
 layla:
   ascension:
-    stat: HP
+    stat: hp_pct
     value: 24.0
   name:
     en: Layla
@@ -795,7 +793,7 @@ layla:
   weapon_type: sword
 linnea:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Linnea
@@ -808,7 +806,7 @@ linnea:
   weapon_type: bow
 lisa:
   ascension:
-    stat: 元素熟知
+    stat: em
     value: 96.0
   name:
     en: Lisa
@@ -821,7 +819,7 @@ lisa:
   weapon_type: catalyst
 lohen:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Lohen
@@ -834,7 +832,7 @@ lohen:
   weapon_type: polearm
 lynette:
   ascension:
-    stat: 風元素ダメージ
+    stat: anemo_dmg
     value: 24.0
   name:
     en: Lynette
@@ -847,7 +845,7 @@ lynette:
   weapon_type: sword
 lyney:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Lyney
@@ -860,7 +858,7 @@ lyney:
   weapon_type: bow
 mavuika:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Mavuika
@@ -873,7 +871,7 @@ mavuika:
   weapon_type: claymore
 mika:
   ascension:
-    stat: HP
+    stat: hp_pct
     value: 24.0
   name:
     en: Mika
@@ -886,7 +884,7 @@ mika:
   weapon_type: polearm
 mona:
   ascension:
-    stat: 元素チャージ効率
+    stat: er
     value: 32.0
   name:
     en: Mona
@@ -899,7 +897,7 @@ mona:
   weapon_type: catalyst
 mualani:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Mualani
@@ -912,7 +910,7 @@ mualani:
   weapon_type: catalyst
 nahida:
   ascension:
-    stat: 元素熟知
+    stat: em
     value: 115.0
   name:
     en: Nahida
@@ -925,7 +923,7 @@ nahida:
   weapon_type: catalyst
 navia:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Navia
@@ -938,7 +936,7 @@ navia:
   weapon_type: claymore
 nefer:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Nefer
@@ -951,7 +949,7 @@ nefer:
   weapon_type: catalyst
 neuvillette:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Neuvillette
@@ -964,7 +962,7 @@ neuvillette:
   weapon_type: catalyst
 nicole:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 28.8
   name:
     en: Nicole
@@ -977,7 +975,7 @@ nicole:
   weapon_type: catalyst
 nilou:
   ascension:
-    stat: HP
+    stat: hp_pct
     value: 28.8
   name:
     en: Nilou
@@ -990,7 +988,7 @@ nilou:
   weapon_type: sword
 ningguang:
   ascension:
-    stat: 岩元素ダメージ
+    stat: geo_dmg
     value: 24.0
   name:
     en: Ningguang
@@ -1003,7 +1001,7 @@ ningguang:
   weapon_type: catalyst
 noelle:
   ascension:
-    stat: 防御力
+    stat: def_pct
     value: 30.0
   name:
     en: Noelle
@@ -1016,7 +1014,7 @@ noelle:
   weapon_type: claymore
 ororon:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 24.0
   name:
     en: Ororon
@@ -1029,7 +1027,7 @@ ororon:
   weapon_type: bow
 prune:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 24.0
   name:
     en: Prune
@@ -1042,7 +1040,7 @@ prune:
   weapon_type: catalyst
 qiqi:
   ascension:
-    stat: 与える治療効果
+    stat: heal
     value: 22.2
   name:
     en: Qiqi
@@ -1055,7 +1053,7 @@ qiqi:
   weapon_type: sword
 raiden_shogun:
   ascension:
-    stat: 元素チャージ効率
+    stat: er
     value: 32.0
   name:
     en: Raiden Shogun
@@ -1068,7 +1066,7 @@ raiden_shogun:
   weapon_type: polearm
 razor:
   ascension:
-    stat: 物理ダメージ
+    stat: phys_dmg
     value: 30.0
   name:
     en: Razor
@@ -1081,7 +1079,7 @@ razor:
   weapon_type: claymore
 rosaria:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 24.0
   name:
     en: Rosaria
@@ -1094,7 +1092,7 @@ rosaria:
   weapon_type: polearm
 sandrone:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Sandrone
@@ -1107,7 +1105,7 @@ sandrone:
   weapon_type: claymore
 sangonomiya_kokomi:
   ascension:
-    stat: 水元素ダメージ
+    stat: hydro_dmg
     value: 28.8
   name:
     en: Sangonomiya Kokomi
@@ -1120,7 +1118,7 @@ sangonomiya_kokomi:
   weapon_type: catalyst
 sayu:
   ascension:
-    stat: 元素熟知
+    stat: em
     value: 96.0
   name:
     en: Sayu
@@ -1133,7 +1131,7 @@ sayu:
   weapon_type: claymore
 sethos:
   ascension:
-    stat: 元素熟知
+    stat: em
     value: 96.0
   name:
     en: Sethos
@@ -1146,7 +1144,7 @@ sethos:
   weapon_type: bow
 shenhe:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 28.8
   name:
     en: Shenhe
@@ -1159,7 +1157,7 @@ shenhe:
   weapon_type: polearm
 shikanoin_heizou:
   ascension:
-    stat: 風元素ダメージ
+    stat: anemo_dmg
     value: 24.0
   name:
     en: Shikanoin Heizou
@@ -1172,7 +1170,7 @@ shikanoin_heizou:
   weapon_type: catalyst
 sigewinne:
   ascension:
-    stat: HP
+    stat: hp_pct
     value: 28.8
   name:
     en: Sigewinne
@@ -1185,7 +1183,7 @@ sigewinne:
   weapon_type: bow
 skirk:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Skirk
@@ -1198,7 +1196,7 @@ skirk:
   weapon_type: sword
 sucrose:
   ascension:
-    stat: 風元素ダメージ
+    stat: anemo_dmg
     value: 24.0
   name:
     en: Sucrose
@@ -1211,7 +1209,7 @@ sucrose:
   weapon_type: catalyst
 tartaglia:
   ascension:
-    stat: 水元素ダメージ
+    stat: hydro_dmg
     value: 28.8
   name:
     en: Tartaglia
@@ -1224,7 +1222,7 @@ tartaglia:
   weapon_type: bow
 thoma:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 24.0
   name:
     en: Thoma
@@ -1237,7 +1235,7 @@ thoma:
   weapon_type: polearm
 tighnari:
   ascension:
-    stat: 草元素ダメージ
+    stat: dendro_dmg
     value: 28.8
   name:
     en: Tighnari
@@ -1250,7 +1248,7 @@ tighnari:
   weapon_type: bow
 varesa:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Varesa
@@ -1263,7 +1261,7 @@ varesa:
   weapon_type: catalyst
 varka:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Varka
@@ -1276,7 +1274,7 @@ varka:
   weapon_type: claymore
 venti:
   ascension:
-    stat: 元素チャージ効率
+    stat: er
     value: 32.0
   name:
     en: Venti
@@ -1289,7 +1287,7 @@ venti:
   weapon_type: bow
 wanderer:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Wanderer
@@ -1302,7 +1300,7 @@ wanderer:
   weapon_type: catalyst
 wriothesley:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Wriothesley
@@ -1315,7 +1313,7 @@ wriothesley:
   weapon_type: catalyst
 xiangling:
   ascension:
-    stat: 元素熟知
+    stat: em
     value: 96.0
   name:
     en: Xiangling
@@ -1328,7 +1326,7 @@ xiangling:
   weapon_type: polearm
 xianyun:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 28.8
   name:
     en: Xianyun
@@ -1341,7 +1339,7 @@ xianyun:
   weapon_type: catalyst
 xiao:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Xiao
@@ -1354,7 +1352,7 @@ xiao:
   weapon_type: polearm
 xilonen:
   ascension:
-    stat: 防御力
+    stat: def_pct
     value: 36.0
   name:
     en: Xilonen
@@ -1367,7 +1365,7 @@ xilonen:
   weapon_type: sword
 xingqiu:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 24.0
   name:
     en: Xingqiu
@@ -1380,7 +1378,7 @@ xingqiu:
   weapon_type: sword
 xinyan:
   ascension:
-    stat: 攻撃力
+    stat: atk_pct
     value: 24.0
   name:
     en: Xinyan
@@ -1393,7 +1391,7 @@ xinyan:
   weapon_type: claymore
 yae_miko:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Yae Miko
@@ -1406,7 +1404,7 @@ yae_miko:
   weapon_type: catalyst
 yanfei:
   ascension:
-    stat: 炎元素ダメージ
+    stat: pyro_dmg
     value: 24.0
   name:
     en: Yanfei
@@ -1419,7 +1417,7 @@ yanfei:
   weapon_type: catalyst
 yaoyao:
   ascension:
-    stat: HP
+    stat: hp_pct
     value: 24.0
   name:
     en: Yaoyao
@@ -1432,7 +1430,7 @@ yaoyao:
   weapon_type: polearm
 yelan:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Yelan
@@ -1445,7 +1443,7 @@ yelan:
   weapon_type: bow
 yoimiya:
   ascension:
-    stat: 会心率
+    stat: cr
     value: 19.2
   name:
     en: Yoimiya
@@ -1458,7 +1456,7 @@ yoimiya:
   weapon_type: bow
 yumemizuki_mizuki:
   ascension:
-    stat: 元素熟知
+    stat: em
     value: 115.0
   name:
     en: Yumemizuki Mizuki
@@ -1471,7 +1469,7 @@ yumemizuki_mizuki:
   weapon_type: catalyst
 yun_jin:
   ascension:
-    stat: 元素チャージ効率
+    stat: er
     value: 26.7
   name:
     en: Yun Jin
@@ -1484,7 +1482,7 @@ yun_jin:
   weapon_type: polearm
 zhongli:
   ascension:
-    stat: 岩元素ダメージ
+    stat: geo_dmg
     value: 28.8
   name:
     en: Zhongli
@@ -1497,7 +1495,7 @@ zhongli:
   weapon_type: polearm
 zibai:
   ascension:
-    stat: 会心ダメージ
+    stat: cd
     value: 38.4
   name:
     en: Zibai
