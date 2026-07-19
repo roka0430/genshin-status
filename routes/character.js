@@ -13,7 +13,10 @@ const characters = yaml.load(fs.readFileSync(path.join(__dirname, "../data/chara
 
 // ID一覧
 router.get("/", (req, res) => {
-  res.json(Object.keys(characters));
+  const characterEntries = Object.entries(characters);
+  characterEntries.sort(([, a], [, b]) => a.name.kana.localeCompare(b.name.kana, "ja"));
+  const names = characterEntries.map(([id, character]) => ({ id, name: character.name.ja }));
+  res.json(names);
 });
 
 // ID検索
