@@ -11,10 +11,12 @@ const __dirname = import.meta.dirname;
 
 const characters = yaml.load(fs.readFileSync(path.join(__dirname, "../data/character.yaml"), "utf-8"));
 
+// ID一覧
 router.get("/", (req, res) => {
   res.json(Object.keys(characters));
 });
 
+// ID検索
 router.get("/:id", (req, res) => {
   const character = characters[req.params.id];
 
