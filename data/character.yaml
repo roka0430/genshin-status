@@ -1,7 +1,7 @@
 aino:
   ascension:
     stat: em
-    value: 96.0
+    value: 96
   name:
     en: Aino
     ja: アイノ
@@ -53,7 +53,7 @@ aloy:
 amber:
   ascension:
     stat: atk_pct
-    value: 24.0
+    value: 24
   name:
     en: Amber
     ja: アンバー
@@ -105,7 +105,7 @@ baizhu:
 barbara:
   ascension:
     stat: hp_pct
-    value: 24.0
+    value: 24
   name:
     en: Barbara
     ja: バーバラ
@@ -118,7 +118,7 @@ barbara:
 beidou:
   ascension:
     stat: electro_dmg
-    value: 24.0
+    value: 24
   name:
     en: Beidou
     ja: 北斗
@@ -144,7 +144,7 @@ bennett:
 candace:
   ascension:
     stat: hp_pct
-    value: 24.0
+    value: 24
   name:
     en: Candace
     ja: キャンディス
@@ -157,7 +157,7 @@ candace:
 charlotte:
   ascension:
     stat: atk_pct
-    value: 24.0
+    value: 24
   name:
     en: Charlotte
     ja: シャルロット
@@ -183,7 +183,7 @@ chasca:
 chevreuse:
   ascension:
     stat: hp_pct
-    value: 24.0
+    value: 24
   name:
     en: Chevreuse
     ja: シュヴルーズ
@@ -209,7 +209,7 @@ chiori:
 chongyun:
   ascension:
     stat: atk_pct
-    value: 24.0
+    value: 24
   name:
     en: Chongyun
     ja: 重雲
@@ -222,7 +222,7 @@ chongyun:
 citlali:
   ascension:
     stat: em
-    value: 115.0
+    value: 115
   name:
     en: Citlali
     ja: シトラリ
@@ -248,7 +248,7 @@ clorinde:
 collei:
   ascension:
     stat: atk_pct
-    value: 24.0
+    value: 24
   name:
     en: Collei
     ja: コレイ
@@ -287,7 +287,7 @@ cyno:
 dahlia:
   ascension:
     stat: hp_pct
-    value: 24.0
+    value: 24
   name:
     en: Dahlia
     ja: ダリア
@@ -326,7 +326,7 @@ diluc:
 diona:
   ascension:
     stat: cryo_dmg
-    value: 24.0
+    value: 24
   name:
     en: Diona
     ja: ディオナ
@@ -339,7 +339,7 @@ diona:
 dori:
   ascension:
     stat: hp_pct
-    value: 24.0
+    value: 24
   name:
     en: Dori
     ja: ドリー
@@ -404,7 +404,7 @@ eula:
 faruzan:
   ascension:
     stat: atk_pct
-    value: 24.0
+    value: 24
   name:
     en: Faruzan
     ja: ファルザン
@@ -417,7 +417,7 @@ faruzan:
 fischl:
   ascension:
     stat: atk_pct
-    value: 24.0
+    value: 24
   name:
     en: Fischl
     ja: フィッシュル
@@ -443,7 +443,7 @@ flins:
 freminet:
   ascension:
     stat: atk_pct
-    value: 24.0
+    value: 24
   name:
     en: Freminet
     ja: フレミネ
@@ -469,7 +469,7 @@ furina:
 gaming:
   ascension:
     stat: atk_pct
-    value: 24.0
+    value: 24
   name:
     en: Gaming
     ja: 嘉明
@@ -495,7 +495,7 @@ ganyu:
 gorou:
   ascension:
     stat: geo_dmg
-    value: 24.0
+    value: 24
   name:
     en: Gorou
     ja: ゴロー
@@ -521,7 +521,7 @@ hu_tao:
 iansan:
   ascension:
     stat: atk_pct
-    value: 24.0
+    value: 24
   name:
     en: Iansan
     ja: イアンサ
@@ -534,7 +534,7 @@ iansan:
 ifa:
   ascension:
     stat: em
-    value: 96.0
+    value: 96
   name:
     en: Ifa
     ja: イファ
@@ -547,7 +547,7 @@ ifa:
 illuga:
   ascension:
     stat: em
-    value: 96.0
+    value: 96
   name:
     en: Illuga
     ja: イルーガ
@@ -599,7 +599,7 @@ jean:
 kachina:
   ascension:
     stat: geo_dmg
-    value: 24.0
+    value: 24
   name:
     en: Kachina
     ja: カチーナ
@@ -612,7 +612,7 @@ kachina:
 kaedehara_kazuha:
   ascension:
     stat: em
-    value: 115.0
+    value: 115
   name:
     en: Kaedehara Kazuha
     ja: 楓原万葉
@@ -664,7 +664,7 @@ kamisato_ayato:
 kaveh:
   ascension:
     stat: em
-    value: 96.0
+    value: 96
   name:
     en: Kaveh
     ja: カーヴェ
@@ -703,7 +703,7 @@ kinich:
 kirara:
   ascension:
     stat: hp_pct
-    value: 24.0
+    value: 24
   name:
     en: Kirara
     ja: 綺良々
@@ -729,7 +729,7 @@ klee:
 kujou_sara:
   ascension:
     stat: atk_pct
-    value: 24.0
+    value: 24
   name:
     en: Kujou Sara
     ja: 九条裟羅
@@ -742,7 +742,7 @@ kujou_sara:
 kuki_shinobu:
   ascension:
     stat: hp_pct
-    value: 24.0
+    value: 24
   name:
     en: Kuki Shinobu
     ja: 久岐忍
@@ -755,7 +755,7 @@ kuki_shinobu:
 lan_yan:
   ascension:
     stat: atk_pct
-    value: 24.0
+    value: 24
   name:
     en: Lan Yan
     ja: 藍硯
@@ -768,7 +768,7 @@ lan_yan:
 lauma:
   ascension:
     stat: em
-    value: 115.0
+    value: 115
   name:
     en: Lauma
     ja: ラウマ
@@ -781,7 +781,7 @@ lauma:
 layla:
   ascension:
     stat: hp_pct
-    value: 24.0
+    value: 24
   name:
     en: Layla
     ja: レイラ
@@ -807,7 +807,7 @@ linnea:
 lisa:
   ascension:
     stat: em
-    value: 96.0
+    value: 96
   name:
     en: Lisa
     ja: リサ
@@ -833,7 +833,7 @@ lohen:
 lynette:
   ascension:
     stat: anemo_dmg
-    value: 24.0
+    value: 24
   name:
     en: Lynette
     ja: リネット
@@ -872,7 +872,7 @@ mavuika:
 mika:
   ascension:
     stat: hp_pct
-    value: 24.0
+    value: 24
   name:
     en: Mika
     ja: ミカ
@@ -885,7 +885,7 @@ mika:
 mona:
   ascension:
     stat: er
-    value: 32.0
+    value: 32
   name:
     en: Mona
     ja: モナ
@@ -911,7 +911,7 @@ mualani:
 nahida:
   ascension:
     stat: em
-    value: 115.0
+    value: 115
   name:
     en: Nahida
     ja: ナヒーダ
@@ -989,7 +989,7 @@ nilou:
 ningguang:
   ascension:
     stat: geo_dmg
-    value: 24.0
+    value: 24
   name:
     en: Ningguang
     ja: 凝光
@@ -1002,7 +1002,7 @@ ningguang:
 noelle:
   ascension:
     stat: def_pct
-    value: 30.0
+    value: 30
   name:
     en: Noelle
     ja: ノエル
@@ -1015,7 +1015,7 @@ noelle:
 ororon:
   ascension:
     stat: atk_pct
-    value: 24.0
+    value: 24
   name:
     en: Ororon
     ja: オロルン
@@ -1028,7 +1028,7 @@ ororon:
 prune:
   ascension:
     stat: atk_pct
-    value: 24.0
+    value: 24
   name:
     en: Prune
     ja: プルーネ
@@ -1054,7 +1054,7 @@ qiqi:
 raiden_shogun:
   ascension:
     stat: er
-    value: 32.0
+    value: 32
   name:
     en: Raiden Shogun
     ja: 雷電将軍
@@ -1067,7 +1067,7 @@ raiden_shogun:
 razor:
   ascension:
     stat: phys_dmg
-    value: 30.0
+    value: 30
   name:
     en: Razor
     ja: レザー
@@ -1080,7 +1080,7 @@ razor:
 rosaria:
   ascension:
     stat: atk_pct
-    value: 24.0
+    value: 24
   name:
     en: Rosaria
     ja: ロサリア
@@ -1119,7 +1119,7 @@ sangonomiya_kokomi:
 sayu:
   ascension:
     stat: em
-    value: 96.0
+    value: 96
   name:
     en: Sayu
     ja: 早柚
@@ -1132,7 +1132,7 @@ sayu:
 sethos:
   ascension:
     stat: em
-    value: 96.0
+    value: 96
   name:
     en: Sethos
     ja: セトス
@@ -1158,7 +1158,7 @@ shenhe:
 shikanoin_heizou:
   ascension:
     stat: anemo_dmg
-    value: 24.0
+    value: 24
   name:
     en: Shikanoin Heizou
     ja: 鹿野院平蔵
@@ -1197,7 +1197,7 @@ skirk:
 sucrose:
   ascension:
     stat: anemo_dmg
-    value: 24.0
+    value: 24
   name:
     en: Sucrose
     ja: スクロース
@@ -1223,7 +1223,7 @@ tartaglia:
 thoma:
   ascension:
     stat: atk_pct
-    value: 24.0
+    value: 24
   name:
     en: Thoma
     ja: トーマ
@@ -1275,7 +1275,7 @@ varka:
 venti:
   ascension:
     stat: er
-    value: 32.0
+    value: 32
   name:
     en: Venti
     ja: ウェンティ
@@ -1314,7 +1314,7 @@ wriothesley:
 xiangling:
   ascension:
     stat: em
-    value: 96.0
+    value: 96
   name:
     en: Xiangling
     ja: 香菱
@@ -1353,7 +1353,7 @@ xiao:
 xilonen:
   ascension:
     stat: def_pct
-    value: 36.0
+    value: 36
   name:
     en: Xilonen
     ja: シロネン
@@ -1366,7 +1366,7 @@ xilonen:
 xingqiu:
   ascension:
     stat: atk_pct
-    value: 24.0
+    value: 24
   name:
     en: Xingqiu
     ja: 行秋
@@ -1379,7 +1379,7 @@ xingqiu:
 xinyan:
   ascension:
     stat: atk_pct
-    value: 24.0
+    value: 24
   name:
     en: Xinyan
     ja: 辛炎
@@ -1405,7 +1405,7 @@ yae_miko:
 yanfei:
   ascension:
     stat: pyro_dmg
-    value: 24.0
+    value: 24
   name:
     en: Yanfei
     ja: 煙緋
@@ -1418,7 +1418,7 @@ yanfei:
 yaoyao:
   ascension:
     stat: hp_pct
-    value: 24.0
+    value: 24
   name:
     en: Yaoyao
     ja: ヨォーヨ
@@ -1457,7 +1457,7 @@ yoimiya:
 yumemizuki_mizuki:
   ascension:
     stat: em
-    value: 115.0
+    value: 115
   name:
     en: Yumemizuki Mizuki
     ja: 夢見月瑞希
