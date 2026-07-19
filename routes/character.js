@@ -10,10 +10,17 @@ const __filename = import.meta.filename;
 const __dirname = import.meta.dirname;
 const characterFilePath = path.join(__dirname, "../data/character.yaml");
 
-const characters = yaml.load(fs.readFileSync(characterFilePath, "utf-8"));
+const loadCharacters = () => {
+  return yaml.load(fs.readFileSync(characterFilePath, "utf-8"));
+};
+
+const saveCharacters = (characters) => {
+  fs.writeFileSync(characterFilePath, yaml.dump(characters, { lineWidth: -1, noRefs: true }), "utf-8");
+};
+
+const characters = loadCharacters();
 
 // キャラクターの一覧を取得する
-// カナ順でソートし、IDと名前のみ返す
 router.get("/", (req, res) => {
   const characterEntries = Object.entries(characters);
   characterEntries.sort(([, a], [, b]) => a.name.kana.localeCompare(b.name.kana, "ja"));
@@ -54,10 +61,24 @@ router.post("/", (req, res) => {
   }
 
   characters[id] = character;
-
-  fs.writeFileSync(characterFilePath, yaml.dump(characters, { lineWidth: -1, noRefs: true }), "utf-8");
-
+  saveCharacters(characters);
   res.status(201).json({ id, ...character });
+});
+
+// キャラクター情報を更新する
+router.put("/:id", (req, res) => {
+  const id = req.params.id;
+
+  if (!characters[id]) {
+    return res.status(404).json({
+      error: "Not found",
+    });
+  }
+
+  characters[id] = req.body;
+  saveCharacters(characters);
+
+  res.json({ id, ...character });
 });
 
 export default router;
