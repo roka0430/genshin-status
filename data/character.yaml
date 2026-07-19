@@ -1,0 +1,13 @@
+yelan:
+  name:
+    en: Yelan
+    ja: 夜蘭
+    kana: イェラン
+  weapon_type: bow
+  stats:
+    base_hp: 1000
+    base_def: 1000
+    base_atk: 1000
+  ascension:
+    stat: crit_rate
+    value: 19.2
