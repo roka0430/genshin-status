@@ -12,44 +12,64 @@ class ApiClient {
   }
 
   async getCharacters() {
-    return await this.get("/api/characters");
+    return await this.get("/api/character");
   }
 
   async getCharacter(id) {
-    return await this.get(`/api/characters/${id}`);
+    return await this.get(`/api/character/${id}`);
   }
 
   async getWeapons() {
-    return await this.get("/api/weapons/");
+    return await this.get("/api/weapon/");
   }
 
   async getWeapon(id) {
-    return await this.get(`/api/weapons/${id}`);
+    return await this.get(`/api/weapon/${id}`);
   }
 
   async getPresets() {
-    return await this.get("/api/presets");
+    return await this.get("/api/preset");
   }
 }
 
-class CharacterManager {
-  constructor() {}
+class CharacterData {
+  constructor(api) {
+    this.api = api;
+    this.characters = [];
+  }
 
-  async init() {}
+  async init() {
+    this.characters = this.api.getCharacters();
+  }
 
-  async getDetail(id) {}
+  async getDetail(id) {
+    return this.api.getCharacter(id);
+  }
 }
 
 class WeaponData {
-  constructor(api) {}
+  constructor(api) {
+    this.api = api;
+    this.weapons = [];
+  }
 
-  async init() {}
+  async init() {
+    this.weapons = this.api.getWeapons();
+  }
 
-  getByType(type) {}
+  getByType(type) {
+    return this.weapons.filter((weapon) => weapon.type === type);
+  }
 
-  get(id) {}
+  async getDetail(id) {
+    return this.api.getWeapon(id);
+  }
 }
 
 class Application {
-  constructor() {}
+  constructor() {
+    this.apiClient = new ApiClient();
+    this.characters = new CharacterData(this.apiClient);
+    this.weapons = new WeaponData(this.apiClient);
+  }
 }
