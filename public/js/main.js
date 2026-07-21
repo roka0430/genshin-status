@@ -1,15 +1,35 @@
 class ApiClient {
   constructor() {}
 
-  async getCharacters() {}
+  async get(url) {
+    const res = await fetch(url);
 
-  async getCharacter(id) {}
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+    }
 
-  async getWeapons() {}
+    return await res.json();
+  }
 
-  async getWeapon() {}
+  async getCharacters() {
+    return await this.get("/api/characters");
+  }
 
-  async getPresets() {}
+  async getCharacter(id) {
+    return await this.get(`/api/characters/${id}`);
+  }
+
+  async getWeapons() {
+    return await this.get("/api/weapons/");
+  }
+
+  async getWeapon(id) {
+    return await this.get(`/api/weapons/${id}`);
+  }
+
+  async getPresets() {
+    return await this.get("/api/presets");
+  }
 }
 
 class CharacterManager {
