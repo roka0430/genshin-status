@@ -1,0 +1,20 @@
+stats:
+  cr: 会心率
+  cd: 会心ダメージ
+  hp_pct: HP%
+  def_pct: 防御力%
+  atk_pct: 攻撃力%
+  hp: HP
+  def: 防御力
+  atk: 攻撃力
+  em: 元素熟知
+  er: 元素チャージ効率
+  heal: 与える治療効果
+  hydro_dmg: 水元素ダメージ
+  pyro_dmg: 炎元素ダメージ
+  electro_dmg: 雷元素ダメージ
+  cryo_dmg: 氷元素ダメージ
+  geo_dmg: 岩元素ダメージ
+  dendro_dmg: 草元素ダメージ
+  anemo_dmg: 風元素ダメージ
+  phys_dmg: 物理ダメージ

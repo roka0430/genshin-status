@@ -1,0 +1,1508 @@
+aino:
+  ascension:
+    stat: em
+    value: 96
+  name:
+    en: Aino
+    ja: アイノ
+    kana: アイノ
+  stats:
+    base_atk: 242
+    base_def: 607
+    base_hp: 11201
+  weapon_type: claymore
+albedo:
+  ascension:
+    stat: geo_dmg
+    value: 28.8
+  name:
+    en: Albedo
+    ja: アルベド
+    kana: アルベド
+  stats:
+    base_atk: 251
+    base_def: 876
+    base_hp: 13226
+  weapon_type: sword
+alhaitham:
+  ascension:
+    stat: dendro_dmg
+    value: 28.8
+  name:
+    en: Alhaitham
+    ja: アルハイゼン
+    kana: アルハイゼン
+  stats:
+    base_atk: 313
+    base_def: 782
+    base_hp: 13348
+  weapon_type: sword
+aloy:
+  ascension:
+    stat: cryo_dmg
+    value: 28.8
+  name:
+    en: Aloy
+    ja: アーロイ
+    kana: アーロイ
+  stats:
+    base_atk: 234
+    base_def: 676
+    base_hp: 10899
+  weapon_type: bow
+amber:
+  ascension:
+    stat: atk_pct
+    value: 24
+  name:
+    en: Amber
+    ja: アンバー
+    kana: アンバー
+  stats:
+    base_atk: 223
+    base_def: 601
+    base_hp: 9461
+  weapon_type: bow
+arataki_itto:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Arataki Itto
+    ja: 荒瀧一斗
+    kana: アラタキイット
+  stats:
+    base_atk: 227
+    base_def: 959
+    base_hp: 12858
+  weapon_type: claymore
+arlecchino:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Arlecchino
+    ja: アルレッキーノ
+    kana: アルレッキーノ
+  stats:
+    base_atk: 342
+    base_def: 765
+    base_hp: 13103
+  weapon_type: polearm
+baizhu:
+  ascension:
+    stat: hp_pct
+    value: 28.8
+  name:
+    en: Baizhu
+    ja: 白朮
+    kana: ビャクジュツ
+  stats:
+    base_atk: 192
+    base_def: 500
+    base_hp: 13348
+  weapon_type: catalyst
+barbara:
+  ascension:
+    stat: hp_pct
+    value: 24
+  name:
+    en: Barbara
+    ja: バーバラ
+    kana: バーバラ
+  stats:
+    base_atk: 159
+    base_def: 669
+    base_hp: 9787
+  weapon_type: catalyst
+beidou:
+  ascension:
+    stat: electro_dmg
+    value: 24
+  name:
+    en: Beidou
+    ja: 北斗
+    kana: ホクト
+  stats:
+    base_atk: 225
+    base_def: 648
+    base_hp: 13050
+  weapon_type: claymore
+bennett:
+  ascension:
+    stat: er
+    value: 26.7
+  name:
+    en: Bennett
+    ja: ベネット
+    kana: ベネット
+  stats:
+    base_atk: 191
+    base_def: 771
+    base_hp: 12397
+  weapon_type: sword
+candace:
+  ascension:
+    stat: hp_pct
+    value: 24
+  name:
+    en: Candace
+    ja: キャンディス
+    kana: キャンディス
+  stats:
+    base_atk: 213
+    base_def: 683
+    base_hp: 10875
+  weapon_type: polearm
+charlotte:
+  ascension:
+    stat: atk_pct
+    value: 24
+  name:
+    en: Charlotte
+    ja: シャルロット
+    kana: シャルロット
+  stats:
+    base_atk: 173
+    base_def: 546
+    base_hp: 10766
+  weapon_type: catalyst
+chasca:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Chasca
+    ja: チャスカ
+    kana: チャスカ
+  stats:
+    base_atk: 347
+    base_def: 615
+    base_hp: 9797
+  weapon_type: bow
+chevreuse:
+  ascension:
+    stat: hp_pct
+    value: 24
+  name:
+    en: Chevreuse
+    ja: シュヴルーズ
+    kana: シュヴルーズ
+  stats:
+    base_atk: 194
+    base_def: 605
+    base_hp: 11962
+  weapon_type: polearm
+chiori:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Chiori
+    ja: 千織
+    kana: チオリ
+  stats:
+    base_atk: 323
+    base_def: 953
+    base_hp: 11438
+  weapon_type: sword
+chongyun:
+  ascension:
+    stat: atk_pct
+    value: 24
+  name:
+    en: Chongyun
+    ja: 重雲
+    kana: チョウウン
+  stats:
+    base_atk: 223
+    base_def: 648
+    base_hp: 10984
+  weapon_type: claymore
+citlali:
+  ascension:
+    stat: em
+    value: 115
+  name:
+    en: Citlali
+    ja: シトラリ
+    kana: シトラリ
+  stats:
+    base_atk: 127
+    base_def: 763
+    base_hp: 11634
+  weapon_type: catalyst
+clorinde:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Clorinde
+    ja: クロリンデ
+    kana: クロリンデ
+  stats:
+    base_atk: 338
+    base_def: 784
+    base_hp: 12956
+  weapon_type: sword
+collei:
+  ascension:
+    stat: atk_pct
+    value: 24
+  name:
+    en: Collei
+    ja: コレイ
+    kana: コレイ
+  stats:
+    base_atk: 200
+    base_def: 601
+    base_hp: 9787
+  weapon_type: bow
+columbina:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Columbina
+    ja: コロンビーナ
+    kana: コロンビーナ
+  stats:
+    base_atk: 96
+    base_def: 515
+    base_hp: 14695
+  weapon_type: catalyst
+cyno:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Cyno
+    ja: セノ
+    kana: セノ
+  stats:
+    base_atk: 318
+    base_def: 859
+    base_hp: 12491
+  weapon_type: polearm
+dahlia:
+  ascension:
+    stat: hp_pct
+    value: 24
+  name:
+    en: Dahlia
+    ja: ダリア
+    kana: ダリア
+  stats:
+    base_atk: 189
+    base_def: 560
+    base_hp: 12506
+  weapon_type: sword
+dehya:
+  ascension:
+    stat: hp_pct
+    value: 28.8
+  name:
+    en: Dehya
+    ja: ディシア
+    kana: ディシア
+  stats:
+    base_atk: 266
+    base_def: 628
+    base_hp: 15675
+  weapon_type: claymore
+diluc:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Diluc
+    ja: ディルック
+    kana: ディルック
+  stats:
+    base_atk: 335
+    base_def: 784
+    base_hp: 12981
+  weapon_type: claymore
+diona:
+  ascension:
+    stat: cryo_dmg
+    value: 24
+  name:
+    en: Diona
+    ja: ディオナ
+    kana: ディオナ
+  stats:
+    base_atk: 212
+    base_def: 601
+    base_hp: 9570
+  weapon_type: bow
+dori:
+  ascension:
+    stat: hp_pct
+    value: 24
+  name:
+    en: Dori
+    ja: ドリー
+    kana: ドリー
+  stats:
+    base_atk: 223
+    base_def: 723
+    base_hp: 12397
+  weapon_type: claymore
+durin:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Durin
+    ja: ドゥリン
+    kana: ドゥリン
+  stats:
+    base_atk: 347
+    base_def: 822
+    base_hp: 12430
+  weapon_type: sword
+emilie:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Emilie
+    ja: エミリエ
+    kana: エミリエ
+  stats:
+    base_atk: 335
+    base_def: 730
+    base_hp: 13568
+  weapon_type: polearm
+escofier:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Escofier
+    ja: エスコフィエ
+    kana: エスコフィエ
+  stats:
+    base_atk: 347
+    base_def: 732
+    base_hp: 13348
+  weapon_type: polearm
+eula:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Eula
+    ja: エウルア
+    kana: エウルア
+  stats:
+    base_atk: 342
+    base_def: 751
+    base_hp: 13226
+  weapon_type: claymore
+faruzan:
+  ascension:
+    stat: atk_pct
+    value: 24
+  name:
+    en: Faruzan
+    ja: ファルザン
+    kana: ファルザン
+  stats:
+    base_atk: 197
+    base_def: 628
+    base_hp: 9570
+  weapon_type: bow
+fischl:
+  ascension:
+    stat: atk_pct
+    value: 24
+  name:
+    en: Fischl
+    ja: フィッシュル
+    kana: フィッシュル
+  stats:
+    base_atk: 244
+    base_def: 594
+    base_hp: 9189
+  weapon_type: bow
+flins:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Flins
+    ja: フリンズ
+    kana: フリンズ
+  stats:
+    base_atk: 352
+    base_def: 809
+    base_hp: 12491
+  weapon_type: polearm
+freminet:
+  ascension:
+    stat: atk_pct
+    value: 24
+  name:
+    en: Freminet
+    ja: フレミネ
+    kana: フレミネ
+  stats:
+    base_atk: 255
+    base_def: 708
+    base_hp: 12071
+  weapon_type: claymore
+furina:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Furina
+    ja: フリーナ
+    kana: フリーナ
+  stats:
+    base_atk: 244
+    base_def: 696
+    base_hp: 15307
+  weapon_type: sword
+gaming:
+  ascension:
+    stat: atk_pct
+    value: 24
+  name:
+    en: Gaming
+    ja: 嘉明
+    kana: ガミン
+  stats:
+    base_atk: 302
+    base_def: 703
+    base_hp: 11419
+  weapon_type: claymore
+ganyu:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Ganyu
+    ja: 甘雨
+    kana: カンウ
+  stats:
+    base_atk: 335
+    base_def: 630
+    base_hp: 9797
+  weapon_type: bow
+gorou:
+  ascension:
+    stat: geo_dmg
+    value: 24
+  name:
+    en: Gorou
+    ja: ゴロー
+    kana: ゴロー
+  stats:
+    base_atk: 183
+    base_def: 648
+    base_hp: 9570
+  weapon_type: bow
+hu_tao:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Hu Tao
+    ja: 胡桃
+    kana: フータオ
+  stats:
+    base_atk: 106
+    base_def: 876
+    base_hp: 15552
+  weapon_type: polearm
+iansan:
+  ascension:
+    stat: atk_pct
+    value: 24
+  name:
+    en: Iansan
+    ja: イアンサ
+    kana: イアンサ
+  stats:
+    base_atk: 257
+    base_def: 638
+    base_hp: 10657
+  weapon_type: polearm
+ifa:
+  ascension:
+    stat: em
+    value: 96
+  name:
+    en: Ifa
+    ja: イファ
+    kana: イファ
+  stats:
+    base_atk: 178
+    base_def: 605
+    base_hp: 10081
+  weapon_type: catalyst
+illuga:
+  ascension:
+    stat: em
+    value: 96
+  name:
+    en: Illuga
+    ja: イルーガ
+    kana: イルーガ
+  stats:
+    base_atk: 191
+    base_def: 814
+    base_hp: 11962
+  weapon_type: polearm
+ineffa:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Ineffa
+    ja: イネファ
+    kana: イネファ
+  stats:
+    base_atk: 330
+    base_def: 828
+    base_hp: 12613
+  weapon_type: polearm
+jahoda:
+  ascension:
+    stat: heal
+    value: 18.5
+  name:
+    en: Jahoda
+    ja: ヤフォダ
+    kana: ヤフォダ
+  stats:
+    base_atk: 223
+    base_def: 580
+    base_hp: 9646
+  weapon_type: bow
+jean:
+  ascension:
+    stat: heal
+    value: 22.2
+  name:
+    en: Jean
+    ja: ジン
+    kana: ジン
+  stats:
+    base_atk: 239
+    base_def: 769
+    base_hp: 14695
+  weapon_type: sword
+kachina:
+  ascension:
+    stat: geo_dmg
+    value: 24
+  name:
+    en: Kachina
+    ja: カチーナ
+    kana: カチーナ
+  stats:
+    base_atk: 216
+    base_def: 792
+    base_hp: 11799
+  weapon_type: polearm
+kaedehara_kazuha:
+  ascension:
+    stat: em
+    value: 115
+  name:
+    en: Kaedehara Kazuha
+    ja: 楓原万葉
+    kana: カエデハラカズハ
+  stats:
+    base_atk: 297
+    base_def: 807
+    base_hp: 13348
+  weapon_type: sword
+kaeya:
+  ascension:
+    stat: er
+    value: 26.7
+  name:
+    en: Kaeya
+    ja: ガイア
+    kana: ガイア
+  stats:
+    base_atk: 223
+    base_def: 792
+    base_hp: 11636
+  weapon_type: sword
+kamisato_ayaka:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Kamisato Ayaka
+    ja: 神里綾華
+    kana: カミサトアヤカ
+  stats:
+    base_atk: 342
+    base_def: 784
+    base_hp: 12858
+  weapon_type: sword
+kamisato_ayato:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Kamisato Ayato
+    ja: 神里綾人
+    kana: カミサトアヤト
+  stats:
+    base_atk: 299
+    base_def: 769
+    base_hp: 13715
+  weapon_type: sword
+kaveh:
+  ascension:
+    stat: em
+    value: 96
+  name:
+    en: Kaveh
+    ja: カーヴェ
+    kana: カーヴェ
+  stats:
+    base_atk: 234
+    base_def: 751
+    base_hp: 11962
+  weapon_type: claymore
+keqing:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Keqing
+    ja: 刻晴
+    kana: コクセイ
+  stats:
+    base_atk: 323
+    base_def: 799
+    base_hp: 13103
+  weapon_type: sword
+kinich:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Kinich
+    ja: キィニチ
+    kana: キィニチ
+  stats:
+    base_atk: 332
+    base_def: 802
+    base_hp: 12858
+  weapon_type: claymore
+kirara:
+  ascension:
+    stat: hp_pct
+    value: 24
+  name:
+    en: Kirara
+    ja: 綺良々
+    kana: キララ
+  stats:
+    base_atk: 223
+    base_def: 546
+    base_hp: 12180
+  weapon_type: sword
+klee:
+  ascension:
+    stat: pyro_dmg
+    value: 28.8
+  name:
+    en: Klee
+    ja: クレー
+    kana: クレー
+  stats:
+    base_atk: 311
+    base_def: 615
+    base_hp: 10287
+  weapon_type: catalyst
+kujou_sara:
+  ascension:
+    stat: atk_pct
+    value: 24
+  name:
+    en: Kujou Sara
+    ja: 九条裟羅
+    kana: クジョウサラ
+  stats:
+    base_atk: 195
+    base_def: 628
+    base_hp: 9570
+  weapon_type: bow
+kuki_shinobu:
+  ascension:
+    stat: hp_pct
+    value: 24
+  name:
+    en: Kuki Shinobu
+    ja: 久岐忍
+    kana: クキシノブ
+  stats:
+    base_atk: 212
+    base_def: 751
+    base_hp: 12289
+  weapon_type: sword
+lan_yan:
+  ascension:
+    stat: atk_pct
+    value: 24
+  name:
+    en: Lan Yan
+    ja: 藍硯
+    kana: ランヤン
+  stats:
+    base_atk: 251
+    base_def: 580
+    base_hp: 9244
+  weapon_type: catalyst
+lauma:
+  ascension:
+    stat: em
+    value: 115
+  name:
+    en: Lauma
+    ja: ラウマ
+    kana: ラウマ
+  stats:
+    base_atk: 255
+    base_def: 669
+    base_hp: 10654
+  weapon_type: catalyst
+layla:
+  ascension:
+    stat: hp_pct
+    value: 24
+  name:
+    en: Layla
+    ja: レイラ
+    kana: レイラ
+  stats:
+    base_atk: 216
+    base_def: 655
+    base_hp: 11092
+  weapon_type: sword
+linnea:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Linnea
+    ja: リンネア
+    kana: リンネア
+  stats:
+    base_atk: 144
+    base_def: 907
+    base_hp: 9895
+  weapon_type: bow
+lisa:
+  ascension:
+    stat: em
+    value: 96
+  name:
+    en: Lisa
+    ja: リサ
+    kana: リサ
+  stats:
+    base_atk: 231
+    base_def: 573
+    base_hp: 9570
+  weapon_type: catalyst
+lohen:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Lohen
+    ja: ローエン
+    kana: ローエン
+  stats:
+    base_atk: 344
+    base_def: 784
+    base_hp: 12858
+  weapon_type: polearm
+lynette:
+  ascension:
+    stat: anemo_dmg
+    value: 24
+  name:
+    en: Lynette
+    ja: リネット
+    kana: リネット
+  stats:
+    base_atk: 232
+    base_def: 712
+    base_hp: 12397
+  weapon_type: sword
+lyney:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Lyney
+    ja: リネ
+    kana: リネ
+  stats:
+    base_atk: 318
+    base_def: 538
+    base_hp: 11021
+  weapon_type: bow
+mavuika:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Mavuika
+    ja: マーヴィカ
+    kana: マーヴィカ
+  stats:
+    base_atk: 359
+    base_def: 792
+    base_hp: 12552
+  weapon_type: claymore
+mika:
+  ascension:
+    stat: hp_pct
+    value: 24
+  name:
+    en: Mika
+    ja: ミカ
+    kana: ミカ
+  stats:
+    base_atk: 223
+    base_def: 713
+    base_hp: 12506
+  weapon_type: polearm
+mona:
+  ascension:
+    stat: er
+    value: 32
+  name:
+    en: Mona
+    ja: モナ
+    kana: モナ
+  stats:
+    base_atk: 287
+    base_def: 653
+    base_hp: 10409
+  weapon_type: catalyst
+mualani:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Mualani
+    ja: ムアラニ
+    kana: ムアラニ
+  stats:
+    base_atk: 182
+    base_def: 570
+    base_hp: 15185
+  weapon_type: catalyst
+nahida:
+  ascension:
+    stat: em
+    value: 115
+  name:
+    en: Nahida
+    ja: ナヒーダ
+    kana: ナヒーダ
+  stats:
+    base_atk: 299
+    base_def: 630
+    base_hp: 10360
+  weapon_type: catalyst
+navia:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Navia
+    ja: ナヴィア
+    kana: ナヴィア
+  stats:
+    base_atk: 352
+    base_def: 793
+    base_hp: 12650
+  weapon_type: claymore
+nefer:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Nefer
+    ja: ネフェル
+    kana: ネフェル
+  stats:
+    base_atk: 344
+    base_def: 799
+    base_hp: 12704
+  weapon_type: catalyst
+neuvillette:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Neuvillette
+    ja: ヌヴィレット
+    kana: ヌヴィレット
+  stats:
+    base_atk: 208
+    base_def: 576
+    base_hp: 14695
+  weapon_type: catalyst
+nicole:
+  ascension:
+    stat: atk_pct
+    value: 28.8
+  name:
+    en: Nicole
+    ja: ニコ
+    kana: ニコ
+  stats:
+    base_atk: 342
+    base_def: 563
+    base_hp: 10409
+  weapon_type: catalyst
+nilou:
+  ascension:
+    stat: hp_pct
+    value: 28.8
+  name:
+    en: Nilou
+    ja: ニィロウ
+    kana: ニィロウ
+  stats:
+    base_atk: 229
+    base_def: 729
+    base_hp: 15185
+  weapon_type: sword
+ningguang:
+  ascension:
+    stat: geo_dmg
+    value: 24
+  name:
+    en: Ningguang
+    ja: 凝光
+    kana: ギョウコウ
+  stats:
+    base_atk: 212
+    base_def: 573
+    base_hp: 9787
+  weapon_type: catalyst
+noelle:
+  ascension:
+    stat: def_pct
+    value: 30
+  name:
+    en: Noelle
+    ja: ノエル
+    kana: ノエル
+  stats:
+    base_atk: 191
+    base_def: 799
+    base_hp: 12071
+  weapon_type: claymore
+ororon:
+  ascension:
+    stat: atk_pct
+    value: 24
+  name:
+    en: Ororon
+    ja: オロルン
+    kana: オロルン
+  stats:
+    base_atk: 244
+    base_def: 587
+    base_hp: 9244
+  weapon_type: bow
+prune:
+  ascension:
+    stat: atk_pct
+    value: 24
+  name:
+    en: Prune
+    ja: プルーネ
+    kana: プルーネ
+  stats:
+    base_atk: 221
+    base_def: 580
+    base_hp: 9679
+  weapon_type: catalyst
+qiqi:
+  ascension:
+    stat: heal
+    value: 22.2
+  name:
+    en: Qiqi
+    ja: 七七
+    kana: ナナ
+  stats:
+    base_atk: 287
+    base_def: 922
+    base_hp: 12368
+  weapon_type: sword
+raiden_shogun:
+  ascension:
+    stat: er
+    value: 32
+  name:
+    en: Raiden Shogun
+    ja: 雷電将軍
+    kana: ライデンショウグン
+  stats:
+    base_atk: 337
+    base_def: 789
+    base_hp: 12907
+  weapon_type: polearm
+razor:
+  ascension:
+    stat: phys_dmg
+    value: 30
+  name:
+    en: Razor
+    ja: レザー
+    kana: レザー
+  stats:
+    base_atk: 234
+    base_def: 751
+    base_hp: 11962
+  weapon_type: claymore
+rosaria:
+  ascension:
+    stat: atk_pct
+    value: 24
+  name:
+    en: Rosaria
+    ja: ロサリア
+    kana: ロサリア
+  stats:
+    base_atk: 240
+    base_def: 710
+    base_hp: 12289
+  weapon_type: polearm
+sandrone:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Sandrone
+    ja: サンドローネ
+    kana: サンドローネ
+  stats:
+    base_atk: 342
+    base_def: 752
+    base_hp: 13226
+  weapon_type: claymore
+sangonomiya_kokomi:
+  ascension:
+    stat: hydro_dmg
+    value: 28.8
+  name:
+    en: Sangonomiya Kokomi
+    ja: 珊瑚宮心海
+    kana: サンゴノミヤココミ
+  stats:
+    base_atk: 234
+    base_def: 657
+    base_hp: 13471
+  weapon_type: catalyst
+sayu:
+  ascension:
+    stat: em
+    value: 96
+  name:
+    en: Sayu
+    ja: 早柚
+    kana: サユ
+  stats:
+    base_atk: 244
+    base_def: 745
+    base_hp: 11854
+  weapon_type: claymore
+sethos:
+  ascension:
+    stat: em
+    value: 96
+  name:
+    en: Sethos
+    ja: セトス
+    kana: セトス
+  stats:
+    base_atk: 227
+    base_def: 560
+    base_hp: 9787
+  weapon_type: bow
+shenhe:
+  ascension:
+    stat: atk_pct
+    value: 28.8
+  name:
+    en: Shenhe
+    ja: 申鶴
+    kana: シンカク
+  stats:
+    base_atk: 304
+    base_def: 830
+    base_hp: 12993
+  weapon_type: polearm
+shikanoin_heizou:
+  ascension:
+    stat: anemo_dmg
+    value: 24
+  name:
+    en: Shikanoin Heizou
+    ja: 鹿野院平蔵
+    kana: シカノインヘイゾウ
+  stats:
+    base_atk: 225
+    base_def: 684
+    base_hp: 10657
+  weapon_type: catalyst
+sigewinne:
+  ascension:
+    stat: hp_pct
+    value: 28.8
+  name:
+    en: Sigewinne
+    ja: シグウィン
+    kana: シグウィン
+  stats:
+    base_atk: 192
+    base_def: 500
+    base_hp: 13348
+  weapon_type: bow
+skirk:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Skirk
+    ja: スカーク
+    kana: スカーク
+  stats:
+    base_atk: 359
+    base_def: 806
+    base_hp: 12417
+  weapon_type: sword
+sucrose:
+  ascension:
+    stat: anemo_dmg
+    value: 24
+  name:
+    en: Sucrose
+    ja: スクロース
+    kana: スクロース
+  stats:
+    base_atk: 170
+    base_def: 703
+    base_hp: 9244
+  weapon_type: catalyst
+tartaglia:
+  ascension:
+    stat: hydro_dmg
+    value: 28.8
+  name:
+    en: Tartaglia
+    ja: タルタリヤ
+    kana: タルタリヤ
+  stats:
+    base_atk: 301
+    base_def: 815
+    base_hp: 13103
+  weapon_type: bow
+thoma:
+  ascension:
+    stat: atk_pct
+    value: 24
+  name:
+    en: Thoma
+    ja: トーマ
+    kana: トーマ
+  stats:
+    base_atk: 202
+    base_def: 751
+    base_hp: 10331
+  weapon_type: polearm
+tighnari:
+  ascension:
+    stat: dendro_dmg
+    value: 28.8
+  name:
+    en: Tighnari
+    ja: ティナリ
+    kana: ティナリ
+  stats:
+    base_atk: 268
+    base_def: 630
+    base_hp: 10850
+  weapon_type: bow
+varesa:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Varesa
+    ja: ヴァレサ
+    kana: ヴァレサ
+  stats:
+    base_atk: 356
+    base_def: 782
+    base_hp: 12699
+  weapon_type: catalyst
+varka:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Varka
+    ja: ファルカ
+    kana: ファルカ
+  stats:
+    base_atk: 353
+    base_def: 795
+    base_hp: 12613
+  weapon_type: claymore
+venti:
+  ascension:
+    stat: er
+    value: 32
+  name:
+    en: Venti
+    ja: ウェンティ
+    kana: ウェンティ
+  stats:
+    base_atk: 263
+    base_def: 669
+    base_hp: 10531
+  weapon_type: bow
+wanderer:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Wanderer
+    ja: 放浪者
+    kana: ホウロウシャ
+  stats:
+    base_atk: 328
+    base_def: 607
+    base_hp: 10164
+  weapon_type: catalyst
+wriothesley:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Wriothesley
+    ja: リオセスリ
+    kana: リオセスリ
+  stats:
+    base_atk: 311
+    base_def: 763
+    base_hp: 13593
+  weapon_type: catalyst
+xiangling:
+  ascension:
+    stat: em
+    value: 96
+  name:
+    en: Xiangling
+    ja: 香菱
+    kana: シャンリン
+  stats:
+    base_atk: 225
+    base_def: 669
+    base_hp: 10875
+  weapon_type: polearm
+xianyun:
+  ascension:
+    stat: atk_pct
+    value: 28.8
+  name:
+    en: Xianyun
+    ja: 閑雲
+    kana: カンウン
+  stats:
+    base_atk: 334
+    base_def: 573
+    base_hp: 10409
+  weapon_type: catalyst
+xiao:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Xiao
+    ja: 魈
+    kana: ショウ
+  stats:
+    base_atk: 349
+    base_def: 799
+    base_hp: 12736
+  weapon_type: polearm
+xilonen:
+  ascension:
+    stat: def_pct
+    value: 36
+  name:
+    en: Xilonen
+    ja: シロネン
+    kana: シロネン
+  stats:
+    base_atk: 275
+    base_def: 930
+    base_hp: 12405
+  weapon_type: sword
+xingqiu:
+  ascension:
+    stat: atk_pct
+    value: 24
+  name:
+    en: Xingqiu
+    ja: 行秋
+    kana: ユクアキ
+  stats:
+    base_atk: 201
+    base_def: 758
+    base_hp: 10222
+  weapon_type: sword
+xinyan:
+  ascension:
+    stat: atk_pct
+    value: 24
+  name:
+    en: Xinyan
+    ja: 辛炎
+    kana: シンエン
+  stats:
+    base_atk: 248
+    base_def: 799
+    base_hp: 11201
+  weapon_type: claymore
+yae_miko:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Yae Miko
+    ja: 八重神子
+    kana: ヤエミコ
+  stats:
+    base_atk: 340
+    base_def: 569
+    base_hp: 10372
+  weapon_type: catalyst
+yanfei:
+  ascension:
+    stat: pyro_dmg
+    value: 24
+  name:
+    en: Yanfei
+    ja: 煙緋
+    kana: エンヒ
+  stats:
+    base_atk: 240
+    base_def: 587
+    base_hp: 9352
+  weapon_type: catalyst
+yaoyao:
+  ascension:
+    stat: hp_pct
+    value: 24
+  name:
+    en: Yaoyao
+    ja: ヨォーヨ
+    kana: ヨォーヨ
+  stats:
+    base_atk: 213
+    base_def: 751
+    base_hp: 12289
+  weapon_type: polearm
+yelan:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Yelan
+    ja: 夜蘭
+    kana: イェラン
+  stats:
+    base_atk: 244
+    base_def: 548
+    base_hp: 14450
+  weapon_type: bow
+yoimiya:
+  ascension:
+    stat: cr
+    value: 19.2
+  name:
+    en: Yoimiya
+    ja: 宵宮
+    kana: ヨイミヤ
+  stats:
+    base_atk: 323
+    base_def: 615
+    base_hp: 10164
+  weapon_type: bow
+yumemizuki_mizuki:
+  ascension:
+    stat: em
+    value: 115
+  name:
+    en: Yumemizuki Mizuki
+    ja: 夢見月瑞希
+    kana: ユメミヅキミズキ
+  stats:
+    base_atk: 215
+    base_def: 757
+    base_hp: 12736
+  weapon_type: catalyst
+yun_jin:
+  ascension:
+    stat: er
+    value: 26.7
+  name:
+    en: Yun Jin
+    ja: 雲菫
+    kana: ウンキン
+  stats:
+    base_atk: 191
+    base_def: 734
+    base_hp: 10657
+  weapon_type: polearm
+zhongli:
+  ascension:
+    stat: geo_dmg
+    value: 28.8
+  name:
+    en: Zhongli
+    ja: 鍾離
+    kana: ショウリ
+  stats:
+    base_atk: 251
+    base_def: 738
+    base_hp: 14695
+  weapon_type: polearm
+zibai:
+  ascension:
+    stat: cd
+    value: 38.4
+  name:
+    en: Zibai
+    ja: 兹白
+    kana: シハク
+  stats:
+    base_atk: 222
+    base_def: 957
+    base_hp: 12919
+  weapon_type: sword
