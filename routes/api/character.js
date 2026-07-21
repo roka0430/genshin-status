@@ -1,11 +1,7 @@
 import express from "express";
-import * as yaml from "js-yaml";
-import fs from "fs";
+import characters from "#modules/characters";
 
 const router = express.Router();
-
-const file = fs.readFileSync("./data/characters.yaml", "utf8");
-const characters = yaml.load(file);
 
 router.get("/", (req, res) => {
   const charactersEntries = Object.entries(characters);
