@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 app.use("/", page);
-app.use("/character", character);
+app.use("/api/character", character);
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);

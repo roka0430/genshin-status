@@ -15,7 +15,15 @@ router.get("/", (req, res) => {
 });
 
 router.get("/:id", (req, res) => {
-  res.send(req.params.id);
+  const character = characters[req.params.id];
+
+  if (!character) {
+    return res.status(404).json({
+      message: "Character not found",
+    });
+  }
+
+  res.json(character);
 });
 
 export default router;
