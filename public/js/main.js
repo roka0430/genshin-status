@@ -39,11 +39,11 @@ class CharacterData {
   }
 
   async init() {
-    this.characters = this.api.getCharacters();
+    this.characters = await this.api.getCharacters();
   }
 
   async getDetail(id) {
-    return this.api.getCharacter(id);
+    return await this.api.getCharacter(id);
   }
 }
 
@@ -54,7 +54,7 @@ class WeaponData {
   }
 
   async init() {
-    this.weapons = this.api.getWeapons();
+    this.weapons = await this.api.getWeapons();
   }
 
   getByType(type) {
@@ -62,7 +62,88 @@ class WeaponData {
   }
 
   async getDetail(id) {
-    return this.api.getWeapon(id);
+    return await this.api.getWeapon(id);
+  }
+}
+
+class Combobox {
+  constructor(input, list) {
+    this.input = input;
+    this.list = list;
+    this.items = [];
+  }
+
+  init() {
+    this.input.addEventListener("input", () => this.filterList());
+    this.input.addEventListener("keydown", (e) => this.onKeyDown(e));
+  }
+
+  setItems(items) {
+    this.items = items.map((item) => ({
+      data: item,
+      element: null,
+    }));
+    this.visible = this.items;
+    this.selectedIndex = 0;
+
+    this.list.textContent = "";
+    for (const item of this.items) {
+      item.element = document.createElement("li");
+      item.element.dataset.id = item.data.id;
+      item.element.textContent = item.data.name;
+      this.list.appendChild(item.element);
+    }
+
+    this.updateSelection();
+  }
+
+  filterList() {
+    const keyword = this.hiraToKana(this.input.value);
+
+    this.visible = this.items.filter((item) => item.data.kana.startsWith(keyword));
+    for (const item of this.items) {
+      item.element.classList.toggle("hidden", !this.visible.includes(item));
+    }
+
+    this.selectedIndex = 0;
+    this.updateSelection();
+  }
+
+  hiraToKana(str) {
+    return str.replace(/[ぁ-ゖ]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) + 0x60));
+  }
+
+  onKeyDown(e) {
+    switch (e.key) {
+      case "ArrowDown":
+        e.preventDefault();
+        this.moveSelection(1);
+        break;
+      case "ArrowUp":
+        e.preventDefault();
+        this.moveSelection(-1);
+        break;
+      case "Enter":
+        e.preventDefault();
+        this.input.value = this.visible[this.selectedIndex].data.name;
+        break;
+    }
+  }
+
+  moveSelection(offset) {
+    if (this.visible.length === 0) return;
+
+    this.selectedIndex += offset;
+    if (this.selectedIndex < 0) this.selectedIndex = this.visible.length - 1;
+    if (this.selectedIndex >= this.visible.length) this.selectedIndex = 0;
+
+    this.updateSelection();
+  }
+
+  updateSelection() {
+    for (const item of this.items) item.element.classList.remove("selected");
+    const selected = this.visible[this.selectedIndex];
+    if (selected) selected.element.classList.add("selected");
   }
 }
 
@@ -71,5 +152,17 @@ class Application {
     this.apiClient = new ApiClient();
     this.characters = new CharacterData(this.apiClient);
     this.weapons = new WeaponData(this.apiClient);
+
+    this.characterCombo = new Combobox(document.getElementById("character"), document.getElementById("characterList"));
+  }
+
+  async init() {
+    await this.characters.init();
+
+    this.characterCombo.init();
+    this.characterCombo.setItems(this.characters.characters);
   }
 }
+
+const app = new Application();
+app.init();
