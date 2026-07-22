@@ -1,0 +1,13 @@
+staff_of_homa:
+  name:
+    en: Staff of Homa
+    ja: 護摩の杖
+    kana: ゴマノツエ
+  weapon_type: polearm
+  rarity: 5
+  stats:
+    base_atk: 608
+    sub_stat:
+      stat: cd
+      value: 66.2
+  
