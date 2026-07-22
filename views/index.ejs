@@ -15,11 +15,10 @@
     </style>
   </head>
   <body>
-    <div class="combobox">
-      <input type="text" autocomplete="off" id="character" />
-      <ul class="combobox__suggestions" id="characterList">
-        <li data-value=""></li>
-      </ul>
+    <div class="combobox" id="combobox">
+      <label for="characterInput">キャラクター</label>
+      <input type="text" id="characterInput" autocomplete="off" />
+      <ul class="combobox__suggestions"></ul>
       <input type="hidden" name="character" />
     </div>
 

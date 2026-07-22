@@ -67,9 +67,11 @@ class WeaponData {
 }
 
 class Combobox {
-  constructor(input, list) {
-    this.input = input;
-    this.list = list;
+  constructor(root) {
+    this.root = root;
+    this.input = root.querySelector('input[type="text"]');
+    this.list = root.querySelector("ul");
+    this.value = root.querySelector('input[type="hidden"]');
     this.items = [];
   }
 
@@ -125,7 +127,7 @@ class Combobox {
         break;
       case "Enter":
         e.preventDefault();
-        this.input.value = this.visible[this.selectedIndex].data.name;
+        this.selectItem();
         break;
     }
   }
@@ -145,6 +147,15 @@ class Combobox {
     const selected = this.visible[this.selectedIndex];
     if (selected) selected.element.classList.add("selected");
   }
+
+  selectItem() {
+    const selected = this.visible[this.selectedIndex];
+
+    if (!selected) return;
+
+    this.input.value = selected.data.name;
+    this.value.value = selected.data.id;
+  }
 }
 
 class Application {
@@ -153,7 +164,7 @@ class Application {
     this.characters = new CharacterData(this.apiClient);
     this.weapons = new WeaponData(this.apiClient);
 
-    this.characterCombo = new Combobox(document.getElementById("character"), document.getElementById("characterList"));
+    this.characterCombo = new Combobox(document.getElementById("combobox"));
   }
 
   async init() {
