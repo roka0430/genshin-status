@@ -9,6 +9,7 @@ router.get("/", (req, res) => {
     return {
       id: id,
       name: value.name.ja,
+      kana: value.name.kana,
     };
   });
   res.json(characterList);
