@@ -7,3 +7,49 @@
   box-sizing: border-box;
   user-select: none;
 }
+
+/* Component */
+
+.combobox {
+  width: 100%;
+}
+
+.combobox__control {
+  position: relative;
+}
+
+.combobox__input {
+  width: 100%;
+  outline: none;
+}
+
+.combobox__suggestions {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 200px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.combobox__input:focus + .combobox__suggestions {
+  display: block;
+}
+
+.combobox__suggestions:not(:has(li:not(.hidden)))::after {
+  content: "Not Found";
+}
+
+.combobox__suggestions li:hover {
+  background: lightgray;
+}
+
+.combobox__suggestions li.hidden {
+  display: none;
+}
+
+.combobox__suggestions li.selected {
+  background: black;
+  color: white;
+}

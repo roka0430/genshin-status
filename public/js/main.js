@@ -76,6 +76,7 @@ class Combobox {
   }
 
   init() {
+    this.input.addEventListener("focus", () => this.input.select());
     this.input.addEventListener("input", () => this.filterList());
     this.input.addEventListener("keydown", (e) => this.onKeyDown(e));
   }
@@ -89,10 +90,11 @@ class Combobox {
     this.selectedIndex = 0;
 
     this.list.textContent = "";
-    for (const item of this.items) {
+    for (const [i, item] of this.items.entries()) {
       item.element = document.createElement("li");
       item.element.dataset.id = item.data.id;
       item.element.textContent = item.data.name;
+      item.element.addEventListener("mousedown", () => this.clickSelection(i));
       this.list.appendChild(item.element);
     }
 
@@ -102,7 +104,10 @@ class Combobox {
   filterList() {
     const keyword = this.hiraToKana(this.input.value);
 
-    this.visible = this.items.filter((item) => item.data.kana.startsWith(keyword));
+    this.visible = this.items.filter((item) => {
+      return item.data.kana.startsWith(keyword) || item.data.name.startsWith(keyword);
+    });
+
     for (const item of this.items) {
       item.element.classList.toggle("hidden", !this.visible.includes(item));
     }
@@ -145,7 +150,18 @@ class Combobox {
   updateSelection() {
     for (const item of this.items) item.element.classList.remove("selected");
     const selected = this.visible[this.selectedIndex];
-    if (selected) selected.element.classList.add("selected");
+    if (!selected) return;
+    selected.element.classList.add("selected");
+    const top = selected.element.offsetTop;
+    const listHeight = this.list.clientHeight;
+    const itemHeight = selected.element.clientHeight;
+    this.list.scrollTop = top - listHeight / 2 + itemHeight / 2;
+  }
+
+  clickSelection(index) {
+    this.selectedIndex = index;
+    this.selectItem();
+    this.filterList();
   }
 
   selectItem() {
@@ -155,6 +171,8 @@ class Combobox {
 
     this.input.value = selected.data.name;
     this.value.value = selected.data.id;
+
+    this.input.blur();
   }
 }
 

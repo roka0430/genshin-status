@@ -5,21 +5,17 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
     <title>Hello World</title>
-    <style>
-      .hidden {
-        display: none;
-      }
-      .selected {
-        background: red;
-      }
-    </style>
   </head>
   <body>
-    <div class="combobox" id="combobox">
-      <label for="characterInput">キャラクター</label>
-      <input type="text" id="characterInput" autocomplete="off" />
-      <ul class="combobox__suggestions"></ul>
-      <input type="hidden" name="character" />
+    <div style="width: 200px">
+      <div class="combobox" id="combobox">
+        <label for="characterInput">キャラクター</label>
+        <div class="combobox__control">
+          <input type="text" class="combobox__input" id="characterInput" autocomplete="off" />
+          <ul class="combobox__suggestions"></ul>
+          <input type="hidden" name="character" />
+        </div>
+      </div>
     </div>
 
     <script src="/js/main.js" defer></script>
